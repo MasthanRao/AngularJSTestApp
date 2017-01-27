@@ -10,8 +10,29 @@ var Customer_1 = require("../Model/Customer");
 var CustomerComponent = (function () {
     function CustomerComponent() {
         // binding logic
-        this.customerobj = new Customer_1.Customer();
+        this.currentCustomer = new Customer_1.Customer();
+        this.customers = new Array();
     }
+    CustomerComponent.prototype.Add = function () {
+        this.customers.push(this.currentCustomer);
+        this.currentCustomer = new Customer_1.Customer();
+    };
+    CustomerComponent.prototype.Select = function (currentSelected) {
+        this.currentCustomer = Object.assign({}, currentSelected);
+    };
+    CustomerComponent.prototype.Update = function (customerSelected) {
+        for (var _i = 0, _a = this.customers; _i < _a.length; _i++) {
+            var cust = _a[_i];
+            if (cust.CustomerCode == this.currentCustomer.CustomerCode) {
+                cust.CustomerName = this.currentCustomer.CustomerName;
+                cust.CusomerAmount = this.currentCustomer.CusomerAmount;
+            }
+        }
+        this.currentCustomer = new Customer_1.Customer();
+    };
+    CustomerComponent.prototype.Clear = function () {
+        this.currentCustomer = new Customer_1.Customer();
+    };
     return CustomerComponent;
 }());
 CustomerComponent = __decorate([

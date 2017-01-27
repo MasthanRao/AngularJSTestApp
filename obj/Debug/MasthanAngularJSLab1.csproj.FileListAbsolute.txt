@@ -15,6 +15,6 @@ C:\Users\Masthan Rao\documents\visual studio 2015\Projects\MasthanAngularJSLab1\
 C:\Users\Masthan Rao\documents\visual studio 2015\Projects\MasthanAngularJSLab1\MasthanAngularJSLab1\bin\MasthanAngularJSLab1.pdb
 C:\Users\Masthan Rao\documents\visual studio 2015\Projects\MasthanAngularJSLab1\MasthanAngularJSLab1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
 C:\Users\Masthan Rao\documents\visual studio 2015\Projects\MasthanAngularJSLab1\MasthanAngularJSLab1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\Masthan Rao\documents\visual studio 2015\Projects\MasthanAngularJSLab1\MasthanAngularJSLab1\obj\Debug\MasthanAngularJSLab1.csprojResolveAssemblyReference.cache
 C:\Users\Masthan Rao\documents\visual studio 2015\Projects\MasthanAngularJSLab1\MasthanAngularJSLab1\obj\Debug\MasthanAngularJSLab1.dll
 C:\Users\Masthan Rao\documents\visual studio 2015\Projects\MasthanAngularJSLab1\MasthanAngularJSLab1\obj\Debug\MasthanAngularJSLab1.pdb
+C:\Users\Masthan Rao\documents\visual studio 2015\Projects\MasthanAngularJSLab1\MasthanAngularJSLab1\obj\Debug\MasthanAngularJSLab1.csprojResolveAssemblyReference.cache
