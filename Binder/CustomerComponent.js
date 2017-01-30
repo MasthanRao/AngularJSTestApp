@@ -15,6 +15,7 @@ var CustomerComponent = (function () {
     }
     CustomerComponent.prototype.Add = function () {
         this.customers.push(this.currentCustomer);
+        this.customers = this.customers.slice();
         this.currentCustomer = new Customer_1.Customer();
     };
     CustomerComponent.prototype.Select = function (currentSelected) {
@@ -25,7 +26,7 @@ var CustomerComponent = (function () {
             var cust = _a[_i];
             if (cust.CustomerCode == this.currentCustomer.CustomerCode) {
                 cust.CustomerName = this.currentCustomer.CustomerName;
-                cust.CusomerAmount = this.currentCustomer.CusomerAmount;
+                cust.CustomerAmount = this.currentCustomer.CustomerAmount;
             }
         }
         this.currentCustomer = new Customer_1.Customer();

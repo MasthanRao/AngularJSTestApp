@@ -12,6 +12,7 @@ export class CustomerComponent {
     customers: Array<Customer> = new Array<Customer>();
     Add() {
         this.customers.push(this.currentCustomer);
+        this.customers= this.customers.slice();
         this.currentCustomer = new Customer();
     }
     Select(currentSelected: Customer) {
@@ -21,7 +22,7 @@ export class CustomerComponent {
         for (let cust of this.customers) {
             if (cust.CustomerCode == this.currentCustomer.CustomerCode) {
                 cust.CustomerName = this.currentCustomer.CustomerName;
-                cust.CusomerAmount = this.currentCustomer.CusomerAmount;
+                cust.CustomerAmount = this.currentCustomer.CustomerAmount;
             }
                 
         }

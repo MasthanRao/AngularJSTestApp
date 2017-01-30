@@ -3,7 +3,7 @@ var Customer = (function () {
     function Customer() {
         this.CustomerName = "";
         this.CustomerCode = "";
-        this.CusomerAmount = 0;
+        this.CustomerAmount = 0;
     }
     return Customer;
 }());
